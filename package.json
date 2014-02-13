@@ -1,0 +1,32 @@
+{
+  "name": "newrelic-xfd",
+  "version": "0.0.1",
+  "description": "Newrelic Extreme Feedback Device",
+  "main": "server.js",
+  "dependencies": {
+    "connect": "~2.12.0",
+    "player": "~0.1.0",
+    "say": "~0.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": "",
+  "keywords": [
+    "newrelic",
+    "extreme",
+    "feedback",
+    "device",
+    "raspberry",
+    "pi",
+    "xfd",
+    "alert",
+    "tts",
+    "ws",
+    "hook"
+  ],
+  "author": "Gabriel Bleu",
+  "license": "BSD"
+}
