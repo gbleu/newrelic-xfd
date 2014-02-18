@@ -12,10 +12,11 @@ var app = connect()
     
     if (req.body) {
     
-      if(config.debug) { util.log(util.format("Body : %j", req.body)); }
+      if(config.debug) { util.log(util.format("body : %s", JSON.stringify(req.body, null, 2))); }
       
       if (req.body.alert) {
         var alert = JSON.parse(req.body.alert);
+        if(config.debug) { util.log(util.format("alert : %s", JSON.stringify(alert, null, 2))); }
         
         var msg = alert.short_description;
         
